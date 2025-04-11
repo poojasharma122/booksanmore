@@ -231,28 +231,30 @@
     <!-- Books Cards Section End-->
 
     <!-- Newsletter Section Start -->
-    <section class="newsletter_sec py-7 aoshide" style="background-image: url(assets/images/newsletter_bg.png);">
+    <section class="newsletter-section py-5 scroll-anim"
+        style="background-image: url(assets/images/newsletter-bg.jpg);">
         <div class="container">
-            <div class="row">
-                <div class="col-12" data-aos="fade-down" data-aos-duration="1500">
-                    <h2 class="section_heading text-center pb-2">️
-                        &#9993; Stay in the Fiction Loop
-                    </h2>
-                </div>
-            </div>
-            <div class="newslettr_wrap text-center" data-aos="fade-up" data-aos-duration="1000">
-                <p class="pt-4">
+            <div class="newsletter-wrap">
+                <h2 class="section-heading text-center text_white pb-3 aos-init aos-animate" data-aos="fade-right"
+                    data-aos-duration="1000">
+                    &#9993; Subscribe for Book Deals and Updates
+                </h2>
+                <p class="text-center pb-5 aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">
                     Join our newsletter for updates on bestselling books in Canada, new releases, and exclusive
                     discounts.
                 </p>
-                <div class="newsletter_input_box">
-                    <span class="input_msg"
-                        style="background-image: url(assets/images/newsletter_icon.png);"></span><input type="text"
-                        placeholder="Enter Your Email">
-                </div>
-                <div class="newsletter_submit_box text-center">
-                    <a href="javascript:void(0)" class="butn newsletter-btn"
-                        onclick="alert('You have been subscribed successfully with us.')">Subscribe</a>
+                <div class="row aos-init" data-aos="fade-left" data-aos-duration="1000">
+                    <div class="col-md-6 col-12 text-center">
+                        <input type="text" class="name" placeholder="Your Name" required="">
+                    </div>
+                    <div class="col-md-6 col-12 text-center">
+                        <input type="email" class="email" placeholder="Your Email" required="">
+                    </div>
+                    <div class="col-12 text-center pt-5">
+                        <a href="javascript:void(0)" class="newsletter-btn butn">
+                            Subscribe
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>

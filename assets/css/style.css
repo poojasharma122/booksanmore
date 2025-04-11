@@ -648,58 +648,65 @@ button.slick-next.slick-arrow {
 
 
 /* Newsletter CSS Start */
-.newsletter_sec {
-    background-position: center;
+.newsletter-section {
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
-    background-color: rgba(0 0 0/0.85);
+    background-color: rgba(0 0 0/90%);
     background-blend-mode: multiply;
 }
 
-.newsletter_input_box {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-bottom: 1px solid #A88BEB;
-    max-width: 37.5rem;
-    margin: 3.125rem auto 1.25rem auto;
+.newsletter-section .row {
+    max-width: 43rem;
+    margin: 0 auto;
 }
 
-span.input_msg {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 1.5625rem;
-    width: 1.5625rem;
-    margin-right: 10px;
-    display: inline-block;
-    min-width: 1.5625rem;
-}
-
-.newsletter_input_box input {
-    max-width: 40.625rem;
-    width: 100%;
+.newsletter-wrap input {
+    width: 80%;
+    background: transparent;
     outline: none;
     border: none;
-    background: transparent;
-    padding: 0.625rem;
-    color: #fff;
-    font-size: 1.3rem;
-    font-weight: 300;
-}
-
-.newsletter_input_box input::placeholder {
+    border-bottom: 1px solid #fff;
+    padding: 10px;
     color: #fff;
 }
 
-.newsletter_sec .section_heading {
+.newsletter-wrap input::placeholder {
+    color: #fff;
+    opacity: 1;
+}
+
+.newsletter-wrap input::-ms-input-placeholder {
     color: #fff;
 }
 
-.newslettr_wrap p {
+.newsletter-wrap p {
     color: #fff;
-    font-size: 1.3rem;
-    font-weight: 400;
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.newsletter-wrap p span.brown {
+    display: inline;
+}
+.newsletter-btn {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.newsletter-btn .letter-img,
+.msg-img {
+    height: 30px;
+    width: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 15px;
+}
+
+.newsletter-wrap h3 {
+    line-height: 1.3;
 }
 
 /* Newsletter CSS End */
@@ -925,15 +932,15 @@ span.input_msg {
     border-left: 3px solid #eee;
     color: #555;
     font-style: italic;
-    font-size: 14px;
+    font-size: 1rem;
   }
   
   .book-description {
     margin: 0 0 15px 0;
     color: #444;
-    font-size: 13px;
+    font-size: 1rem;
     line-height: 1.5;
-  }
+}
   
   .book-now-btn {
     width: 100%;
