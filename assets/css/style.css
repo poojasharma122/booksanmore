@@ -192,10 +192,6 @@ span.theme {
     color: #A88BEB;
 }
 
-.mt_nav {
-    margin-top: 86.25px
-}
-
 .bg_dark {
     background-color: #e3e3e3;
 }
@@ -254,7 +250,7 @@ span.theme {
 
 /* Header CSS Start */
 .header {
-    position: fixed;
+    position: sticky;
     top: 0;
     left: 0;
     right: 0;
@@ -263,9 +259,6 @@ span.theme {
     z-index: 9999;
     transition: all 0.3s ease-in-out;
     padding: 15px;
-}
-
-.header--sticky {
     background-color: #f3f3f3;
 }
 
@@ -800,3 +793,53 @@ span.input_msg {
     background-image: url(../images/ssl.png);
 }
 /* Footer CSS Start */
+
+/* Sub Pages CSS Start */
+.sub_pages_banner {
+    height: 35rem;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.sub_pages_banner::before {
+    position: absolute;
+    content: '';
+    background: rgba(0 0 0/80%);
+    background-blend-mode: multiply;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.banner_box {
+    display: flex;
+    gap: 1.25rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    transform: translate(-50%, -50%);
+}
+
+.banner_box h1 {
+    font-size: 3rem;
+    text-align: center;
+    text-transform: capitalize;
+    max-width: 42.375rem;
+    color: #fff;
+}
+.banner_box h3 {
+    font-size: 1.5rem;
+    text-align: center;
+    text-transform: capitalize;
+    max-width: 42.375rem;
+    color: #fff;
+}
+/* Sub Pages CSS End*/
