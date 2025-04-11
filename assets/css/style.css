@@ -41,6 +41,7 @@ p {
     padding: 0;
     margin: 0;
     font-family: "Raleway", sans-serif;
+    font-weight: 500;
 }
 
 ul {
@@ -458,6 +459,11 @@ span.theme {
 /* Home After Banner CSS End*/
 
 /* Home Slider CSS Start */
+
+.books_cat_cards{
+    box-shadow: #A88BEB 0px 3px 8px;
+}
+
 .single-item-slider {
     width: 100%;
     margin: 0 auto;
@@ -842,4 +848,41 @@ span.input_msg {
     max-width: 42.375rem;
     color: #fff;
 }
+
+.after_bnr_btn_grp {
+    display: flex;
+    gap: 0.625rem;
+    margin-top: 1.25rem;
+}
+
+.img_part {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.text_part {
+    padding: 5rem 1.875rem;
+}
+
+.text_part h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.25rem;
+}
+
+.text_part p {
+    font-size: 1.2rem;
+}
+
+.text_part p a {
+    color: #af8c3e;
+}
+
+.home_after_bnr_btn {
+    font-size: 1.1rem;
+}
+
+
 /* Sub Pages CSS End*/

@@ -29,3 +29,8 @@ $('.single-item-slider').slick({
   autoplay:true,});
 //Slider JS End
 
+// AOS JS Start
+AOS.init({
+  duration:1200,
+});
+// AOS JS End
