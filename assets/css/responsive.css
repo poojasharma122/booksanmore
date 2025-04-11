@@ -1,0 +1,110 @@
+@media screen and (max-width:1199px) {
+    html {
+        font-size: 15px;
+    }
+
+    .menu-wrapper ul {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .menu-wrapper {
+        display: block;
+        position: fixed;
+        background-color: #000;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        padding: 50px;
+        box-shadow: rgb(159 159 159 / 60%) 0px 7px 29px 0px;
+        transform: translateX(-100%);
+        transition: all 0.3s linear;
+    }
+
+    .menuToggle .menu-wrapper {
+        transform: translateX(0%);
+    }
+
+    .close-menu {
+        display: block;
+    }
+
+    .hamburger-menu {
+        display: block;
+    }
+
+
+}
+
+
+@media (max-width: 991px) {
+
+    .slick-prev,
+    .slick-next {
+        top: auto;
+        bottom: -80px;
+        transform: none;
+    }
+
+    .slick-prev {
+        left: 50% !important;
+        margin-left: -60px;
+    }
+
+    .slick-next {
+        right: 50% !important;
+        margin-right: -60px;
+    }
+
+    .home_editors_choice_sec .slick-prev,
+    .home_editors_choice_sec .slick-next {
+        top: 50%;
+    }
+
+    .home_editors_choice_sec .single-item-slider {
+        width: calc(100% - 100px);
+    }
+    .home_editors_choice_sec .slick-prev {
+        left: 0 !important;
+    }
+    .home_editors_choice_sec .slick-next {
+        right: 0 !important;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .books-content {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .books-content h1 {
+        font-size: 2rem;
+    }
+
+    .home_editors_choice_sec .slick-prev,
+    .home_editors_choice_sec .slick-next {
+        top: auto;
+        bottom: -60px;
+        transform: none;
+    }
+
+    .home_editors_choice_sec .single-item-slider {
+        width: 100%;
+    }
+
+    .home_editors_choice_sec .slick-prev {
+        left: 50% !important;
+        margin-left: -60px;
+    }
+
+    .home_editors_choice_sec .slick-next {
+        right: 50% !important;
+        margin-right: -60px;
+    }
+
+
+
+}
