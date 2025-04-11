@@ -71,7 +71,9 @@
     .home_editors_choice_sec .slick-next {
         right: 0 !important;
     }
-
+    .books_cat_cards {
+        padding-bottom: 110px;
+    }
 }
 
 @media (max-width: 767px) {
