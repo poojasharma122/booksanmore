@@ -74,6 +74,20 @@
     .books_cat_cards {
         padding-bottom: 110px;
     }
+    .books-content {
+        padding: 2.5rem 0.625rem 0 .625rem;
+    }
+    .about_cards {
+        padding: 0;
+        background-color: #fff!important;
+    }
+    .about_cards_image {
+        height: 300px;
+        display: block;
+    }
+    .about_cards_info {
+        border-radius: 0;
+    }
 }
 
 @media (max-width: 767px) {
@@ -106,7 +120,21 @@
         right: 50% !important;
         margin-right: -60px;
     }
+    .nav__menu {
+        width: 100%;
+    }
 
 
+}
 
+@media screen and (max-width:575px){
+    .nav__logo, .footer_logo a {
+        width: 13.75rem;
+    } 
+}
+
+@media screen and (max-width:480px){
+    .nav__logo, .footer_logo a {
+        width: 11.75rem;
+    }   
 }

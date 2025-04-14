@@ -261,7 +261,6 @@ span.theme {
     margin: 0 auto;
     z-index: 9999;
     transition: all 0.3s ease-in-out;
-    padding: 15px;
     background-color: #f3f3f3;
 }
 
@@ -423,6 +422,9 @@ span.theme {
     font-size: 1.1rem;
     color: #495057;
     margin-bottom: 30px;
+}
+.books-content p:last-child {
+    margin-bottom: 0;
 }
 
 .books-image {
@@ -835,7 +837,7 @@ button.slick-next.slick-arrow {
 
 /* Footer CSS Start */
 
-/* Sub Pages CSS Start */
+/* Books Pages CSS Start */
 .sub_pages_banner {
     height: 35rem;
     background-size: cover;
@@ -919,11 +921,6 @@ button.slick-next.slick-arrow {
 .home_after_bnr_btn {
     font-size: 1.1rem;
 }
-
-
-/* Sub Pages CSS End*/
-
-
 .book-card {
     width: 100%;
     border: 1px solid #ddd;
@@ -932,6 +929,7 @@ button.slick-next.slick-arrow {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     font-family: Arial, sans-serif;
     background-color: #fff;
+    height: 100%;
 }
 
 .book-image {
@@ -980,3 +978,44 @@ button.slick-next.slick-arrow {
     font-size: 1rem;
     line-height: 1.5;
 }
+/* Books Pages CSS End*/
+
+
+/* About Page CSS Start*/
+.about_cards {
+    border: 1px solid transparent;
+    padding: 1.875rem 2.5rem;
+    min-height: 31.25rem;
+    align-content: center;
+    margin: 0 auto;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about_cards_image {
+    height: 100%;
+    width: 100%;
+    display: none;
+}
+.about_cards_image_inner {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.about_cards_info {
+    background: #fff;
+    padding:3rem 1.25rem;
+    border-radius: 20px;
+}
+.about_last_cards {
+    background-color: #A88BEB;
+    padding: 4rem 2rem;
+    border-radius: 20px;
+    transition: 0.3s all ease-in-out;
+}
+.about_last_cards:hover{
+    transform: translateY(-5px);
+}
+/* About Page CSS End*/
