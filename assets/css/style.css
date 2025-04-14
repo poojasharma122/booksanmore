@@ -423,6 +423,7 @@ span.theme {
     color: #495057;
     margin-bottom: 30px;
 }
+
 .books-content p:last-child {
     margin-bottom: 0;
 }
@@ -921,6 +922,7 @@ button.slick-next.slick-arrow {
 .home_after_bnr_btn {
     font-size: 1.1rem;
 }
+
 .book-card {
     width: 100%;
     border: 1px solid #ddd;
@@ -978,6 +980,7 @@ button.slick-next.slick-arrow {
     font-size: 1rem;
     line-height: 1.5;
 }
+
 /* Books Pages CSS End*/
 
 
@@ -992,11 +995,13 @@ button.slick-next.slick-arrow {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .about_cards_image {
     height: 100%;
     width: 100%;
     display: none;
 }
+
 .about_cards_image_inner {
     height: 100%;
     width: 100%;
@@ -1004,18 +1009,124 @@ button.slick-next.slick-arrow {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 .about_cards_info {
     background: #fff;
-    padding:3rem 1.25rem;
+    padding: 3rem 1.25rem;
     border-radius: 20px;
 }
+
 .about_last_cards {
     background-color: #A88BEB;
     padding: 4rem 2rem;
     border-radius: 20px;
-    transition: 0.3s all ease-in-out;
+    transition: 0.2s all ease-in-out;
+    height: 100%;
 }
-.about_last_cards:hover{
+
+.about_last_cards:hover {
     transform: translateY(-5px);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+
 /* About Page CSS End*/
+
+/* Contact Page CSS Start */
+.contact_cards_wrap {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contact_cards {
+    background: #e3e3e3;
+    padding: 3rem 2rem;
+    border-radius: 20px;
+    height: 100%;
+}
+
+.contact_cards_content h5 {
+    color: #A88BEB;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.contact_cards_content p {
+    color: #495057;
+    font-weight: 600;
+}
+.contact_cards_content p  a{
+color: #A88BEB;
+
+}
+.contact_cards_content ul li {
+    list-style: disc;
+    margin-left: 20px;
+}
+.home_after_banner_text_rap ul li p a{
+    color: #A88BEB;
+}
+/* Contact Page CSS End */
+
+/* Footer Pages CSS Start*/
+.footer-pages-wrap {
+    max-width: 81.25rem;
+    margin: 0 auto;
+    border-radius: 20px;
+    position: relative;
+}
+
+.footer-pages-content-grp {
+    margin-bottom: 1.2rem;
+    border-radius: 0.625rem;
+}
+
+.footer-pages-content-grp:last-child {
+    margin-bottom: 0px;
+}
+
+.footer-pages-content-grp h3 {
+    font-size: 1.4rem;
+    margin-bottom: 0.9375rem;
+    color: #A88BEB;
+    line-height: 1.4;
+    font-weight: 600;
+}
+
+.footer-pages-content-grp strong {
+    font-size: 1.125rem;
+}
+
+.footer-pages-content-grp p {
+    font-size: 1.0625rem;
+    margin-bottom: 0.5rem;
+    color: #495057;
+}
+
+.footer-pages-content-grp ul {
+    list-style: none;
+    padding-left: 1.25rem;
+}
+
+.footer-pages-content-grp ul li {
+    list-style-type: disc;
+}
+
+.footer-pages-content-grp ul li::marker {
+    color: #495057;
+}
+.footer-pages-content-grp p a {
+    color: #A88BEB;
+    display: inline-block;
+    transition: 0.4s all ease-in-out;
+    text-underline-offset: 4px;
+    font-weight: 600;
+}
+
+.footer-pages-content-grp p a:hover {
+    text-decoration: underline;
+}
+
+.footer-pages-wrap span.gold {
+    font-weight: 600;
+}
+/* Footer Pages CSS End*/
