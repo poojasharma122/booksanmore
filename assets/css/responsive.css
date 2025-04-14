@@ -57,18 +57,18 @@
         margin-right: -60px;
     }
 
-    .home_editors_choice_sec .slick-prev,
-    .home_editors_choice_sec .slick-next {
+    .featured_books_sec .slick-prev,
+    .featured_books_sec .slick-next {
         top: 50%;
     }
 
-    .home_editors_choice_sec .single-item-slider {
+    .featured_books_sec .single-item-slider {
         width: calc(100% - 100px);
     }
-    .home_editors_choice_sec .slick-prev {
+    .featured_books_sec .slick-prev {
         left: 0 !important;
     }
-    .home_editors_choice_sec .slick-next {
+    .featured_books_sec .slick-next {
         right: 0 !important;
     }
     .books_cat_cards {
@@ -100,23 +100,23 @@
         font-size: 2rem;
     }
 
-    .home_editors_choice_sec .slick-prev,
-    .home_editors_choice_sec .slick-next {
+    .featured_books_sec .slick-prev,
+    .featured_books_sec .slick-next {
         top: auto;
         bottom: -60px;
         transform: none;
     }
 
-    .home_editors_choice_sec .single-item-slider {
+    .featured_books_sec .single-item-slider {
         width: 100%;
     }
 
-    .home_editors_choice_sec .slick-prev {
+    .featured_books_sec .slick-prev {
         left: 50% !important;
         margin-left: -60px;
     }
 
-    .home_editors_choice_sec .slick-next {
+    .featured_books_sec .slick-next {
         right: 50% !important;
         margin-right: -60px;
     }
