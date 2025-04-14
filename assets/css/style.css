@@ -200,9 +200,11 @@ span.theme {
 .text_white {
     color: #fff;
 }
-.aoshide{
+
+.aoshide {
     overflow: hidden;
 }
+
 /* Section Heading CSS End */
 
 /* Butn CSS Start */
@@ -384,12 +386,16 @@ span.theme {
     background: #A88BEB;
 }
 
-.nav__item.active ,.nav__item:hover {
+.nav__item.active,
+.nav__item:hover {
     background: #A88BEB;
 }
-.nav__item.active .nav__link ,.nav__item:hover .nav__link {
+
+.nav__item.active .nav__link,
+.nav__item:hover .nav__link {
     color: #fff;
 }
+
 .nav__item--active .nav__link {
     color: #ffff;
 }
@@ -460,16 +466,16 @@ span.theme {
 
 /* Home Slider CSS Start */
 
-.books_cat_cards{
+.books_cat_cards {
     box-shadow: #A88BEB 0px 3px 8px;
 }
 
-.single-item-slider {
+.books_item_slider {
     width: 100%;
     margin: 0 auto;
 }
 
-.banner_slides {
+.books_slides {
     height: 40.625rem;
     margin: 0 auto;
     display: flex;
@@ -492,16 +498,16 @@ button.slick-next.slick-arrow {
 }
 
 .slick-prev:before {
-    content: '←';
+    content: '<';
     color: #fff;
 }
 
 .slick-next:before {
-    content: '→';
+    content: '>';
     color: #fff;
 }
 
-.slide_content {
+.books_content {
     text-align: center;
     padding: 0 .9375rem;
 }
@@ -512,13 +518,13 @@ button.slick-next.slick-arrow {
     opacity: 1;
 }
 
-.slide_content h2 {
+.books_content h2 {
     color: #A88BEB;
     font-size: 3rem;
     margin-bottom: 20px;
 }
 
-.slide_content p {
+.books_content p {
     font-size: 1.5rem;
     max-width: 900px;
     margin: 0 auto;
@@ -535,6 +541,15 @@ button.slick-next.slick-arrow {
     z-index: 10;
 }
 
+.books_content {
+    text-align: center;
+    padding: 0 .9375rem;
+    backdrop-filter: blur(5px);
+    padding: 40px 20px;
+    box-shadow: #A88BEB 0px 2px 8px 0px;
+    border-radius: 20px;
+}
+
 /* Home Slider CSS End */
 
 
@@ -545,6 +560,7 @@ button.slick-next.slick-arrow {
     vertical-align: middle;
     margin-top: -4px;
 }
+
 .why_us_card {
     padding: 2.5rem 1.5625rem;
     border-radius: 10px;
@@ -589,6 +605,7 @@ button.slick-next.slick-arrow {
     margin: 0;
     font-weight: 500;
 }
+
 /* Why Us CSS End */
 
 
@@ -596,53 +613,55 @@ button.slick-next.slick-arrow {
 
 
 /* Home Editor Card CSS Start */
-.home_editors_choice_sec .single-item-slider {
+.featured_books_sec .single-item-slider {
     width: calc(100% - 150px);
     margin: 0 auto;
 }
 
-.home_editors_choice_sec button.slick-prev.slick-arrow,.home_editors_choice_sec  button.slick-next.slick-arrow {
+.featured_books_sec button.slick-prev.slick-arrow,
+.featured_books_sec button.slick-next.slick-arrow {
     background: transparent;
     width: 3.125rem;
     height: 3.125rem;
     color: #fff;
 }
 
-.home_editors_choice_sec .banner_slides {
+.featured_books_sec .books_slides {
     height: 600px;
 }
 
-.home_editors_choice_sec .slick-prev:before {
-    content: '←';
+.featured_books_sec .slick-prev:before {
+    content: '<';
     color: #A88BEB;
 }
 
-.home_editors_choice_sec .slick-next:before {
-    content: '→';
+.featured_books_sec .slick-next:before {
+    content: '>';
     color: #A88BEB;
 }
 
-.home_editors_choice_sec .slick-prev:before,
-.home_editors_choice_sec .slick-next:before {
+.featured_books_sec .slick-prev:before,
+.featured_books_sec .slick-next:before {
     font-size: 35px;
     opacity: 1;
 }
 
-.home_editors_choice_sec .slide_content h2 {
+.featured_books_sec .books_content h2 {
     font-size: 2.5rem;
 }
 
-.home_editors_choice_sec .slide_content p {
+.featured_books_sec .books_content p {
     font-size: 1.1rem;
 }
 
-.home_editors_choice_sec .slick-prev {
+.featured_books_sec .slick-prev {
     left: -45px !important;
 }
 
-.home_editors_choice_sec .slick-next {
+.featured_books_sec .slick-next {
     right: -45px !important;
 }
+
 /* Home Editor Card CSS End*/
 
 
@@ -652,8 +671,9 @@ button.slick-next.slick-arrow {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-color: rgba(0 0 0/90%);
+    background-color: rgba(0 0 0/85%);
     background-blend-mode: multiply;
+    background-image: url(../images/newsletter_bg.png);
 }
 
 .newsletter-section .row {
@@ -686,9 +706,11 @@ button.slick-next.slick-arrow {
     max-width: 800px;
     margin: 0 auto;
 }
+
 .newsletter-wrap p span.brown {
     display: inline;
 }
+
 .newsletter-btn {
     padding: 10px 20px;
     font-size: 1.2rem;
@@ -721,12 +743,15 @@ button.slick-next.slick-arrow {
     text-transform: capitalize;
     font-weight: 600;
 }
-.footer_logo{
+
+.footer_logo {
     border-bottom: 1px solid #A88BEB;
 }
+
 .disclaimer {
     padding-right: 60px;
 }
+
 .disclaimer p {
     font-size: 1.1rem;
     color: #222222;
@@ -765,7 +790,7 @@ button.slick-next.slick-arrow {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    background-color:#A88BEB;
+    background-color: #A88BEB;
     border-radius: 5px;
     padding: 8px;
     transition: 0.2s all ease-in-out;
@@ -776,9 +801,11 @@ button.slick-next.slick-arrow {
     width: 100%;
     fill: #fff;
 }
+
 .social-links a:hover {
     transform: translateY(-5px);
 }
+
 .bottom_strip {
     border-top: 1px solid #A88BEB;
 }
@@ -805,6 +832,7 @@ button.slick-next.slick-arrow {
     width: 12.5rem;
     background-image: url(../images/ssl.png);
 }
+
 /* Footer CSS Start */
 
 /* Sub Pages CSS Start */
@@ -848,6 +876,7 @@ button.slick-next.slick-arrow {
     max-width: 42.375rem;
     color: #fff;
 }
+
 .banner_box h3 {
     font-size: 1.5rem;
     text-align: center;
@@ -900,59 +929,54 @@ button.slick-next.slick-arrow {
     border: 1px solid #ddd;
     border-radius: 8px;
     overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     font-family: Arial, sans-serif;
     background-color: #fff;
-  }
-  
-  .book-image img {
+}
+
+.book-image {
+    height: 350px;
     width: 100%;
-    height: 300px;
-    object-fit: cover;
-  }
-  
-  .book-content {
+    overflow: hidden;
+}
+
+.book-image-inner {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+.book-content {
     padding: 15px;
-  }
-  
-  .book-title {
-    margin: 0 0 5px 0;
+}
+
+.book-title {
+    margin: 0 0 10px 0;
     color: #333;
-  }
-  
-  .book-author {
+    font-size: 1.7rem;
+}
+
+.book-author {
     margin: 0 0 15px 0;
     color: #666;
     font-size: 14px;
-  }
-  
-  .book-quote {
+    font-weight: 600;
+}
+
+.book-quote {
     margin: 0 0 15px 0;
     padding-left: 10px;
     border-left: 3px solid #eee;
     color: #555;
     font-style: italic;
     font-size: 1rem;
-  }
-  
-  .book-description {
+}
+
+.book-description {
     margin: 0 0 15px 0;
-    color: #444;
+    color: #4c4c4c;
     font-size: 1rem;
     line-height: 1.5;
 }
-  
-  .book-now-btn {
-    width: 100%;
-    padding: 10px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-weight: bold;
-  }
-  
-  .book-now-btn:hover {
-    background-color: #45a049;
-  }
