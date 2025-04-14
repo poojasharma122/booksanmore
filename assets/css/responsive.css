@@ -91,6 +91,15 @@
     section.home_banner .row {
         flex-direction: column-reverse;
     }
+    .featured_books_sec .books_content h2 {
+        font-size: 2rem;
+    }
+    .featured_books_sec .books_slides {
+        height: 26.5rem;
+    }
+    .books_slides {
+        height: 30.625rem;
+    }
 }
 
 @media (max-width: 767px) {
@@ -143,6 +152,7 @@
     .books_slides {
         height: 30.625rem;
     }
+
 }
 
 @media screen and (max-width:575px){
@@ -164,6 +174,10 @@
     .books_content p {
         font-size: 1.2rem;
     }
+    .newsletter-wrap p {
+        font-size: 1rem;
+    }
+
 }
 
 @media screen and (max-width:480px){
@@ -182,5 +196,16 @@
     .books_content p {
         font-size: 1.1rem;
     }
-
+    .newsletter-wrap p {
+        font-size: 1rem;
+    }
+    .featured_books_sec .books_content h2 {
+        font-size: 1.65rem;
+    }
+    .featured_books_sec .books_content p {
+        font-size: 1rem;
+    }
+    .featured_books_sec .books_slides {
+        height: 26.5rem;
+    }
 }
