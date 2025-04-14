@@ -91,6 +91,9 @@
 }
 
 @media (max-width: 767px) {
+    html{
+        font-size: 14px;
+    }
     .books-content {
         text-align: center;
         margin-bottom: 40px;
