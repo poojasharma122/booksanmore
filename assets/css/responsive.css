@@ -88,6 +88,9 @@
     .about_cards_info {
         border-radius: 0;
     }
+    section.home_banner .row {
+        flex-direction: column-reverse;
+    }
 }
 
 @media (max-width: 767px) {
@@ -95,7 +98,6 @@
         font-size: 14px;
     }
     .books-content {
-        text-align: center;
         margin-bottom: 40px;
     }
 
@@ -132,16 +134,23 @@
     .ssl_certi {
         justify-content: center;
     }
+    .books-image {
+        height: 23.25rem;
+    }
 }
 
 @media screen and (max-width:575px){
     .nav__logo, .footer_logo a {
         width: 13.75rem;
     } 
+    .books-image {
+        height: 20.25rem;
+    }
 }
 
 @media screen and (max-width:480px){
     .nav__logo, .footer_logo a {
         width: 11.75rem;
     }   
+
 }
