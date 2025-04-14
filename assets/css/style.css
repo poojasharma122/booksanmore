@@ -81,7 +81,7 @@ img {
     width: 100%;
     max-width: 1370px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0 0.9375rem;
 }
 
 
@@ -209,8 +209,7 @@ span.theme {
 
 /* Butn CSS Start */
 .butn {
-    padding: 10px 25px;
-    font-family: "Roboto", sans-serif;
+    padding: 0.625rem 0.5625rem;
     font-weight: 500;
     background: transparent;
     outline: none !important;
@@ -316,7 +315,7 @@ span.theme {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    margin-top: 10px;
+    margin-top: 0.625rem;
 }
 
 .nav__item {
@@ -336,7 +335,7 @@ span.theme {
     top: 0;
     left: 0;
     height: 100%;
-    width: 300px;
+    width: 18.75rem;
     padding: 3.125rem 0;
     background-color: #fff;
     transform: translateX(-100%);
@@ -363,8 +362,8 @@ span.theme {
 
 .nav__close {
     position: absolute;
-    top: 10px;
-    right: 10px;
+    top: 0.9375rem;
+    right: 0.9375rem;
     display: block;
     text-align: end;
     z-index: 55;
@@ -414,14 +413,14 @@ span.theme {
     font-size: 2.5rem;
     font-weight: 700;
     color: #2c3e50;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
     line-height: 1.2;
 }
 
 .books-content p {
     font-size: 1.1rem;
     color: #495057;
-    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
 }
 
 .books-content p:last-child {
@@ -431,8 +430,8 @@ span.theme {
 .books-image {
     width: 100%;
     height: 31.25rem;
-    border-radius: 8px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 0.625rem;
+    box-shadow: 0 0.625rem 1.875rem rgba(0, 0, 0, 0.1);
 }
 
 .books-image-inner {
@@ -441,8 +440,8 @@ span.theme {
     background-repeat: no-repeat;
     height: 100%;
     width: 100%;
-    border: 15px solid #fff;
-    border-radius: 20px;
+    border: 0.9375rem solid #fff;
+    border-radius: 1.25rem;
 }
 
 /* Banner CSS End */
@@ -460,9 +459,10 @@ span.theme {
 }
 
 .home_after_banner_text_rap p {
-    max-width: 1200px;
+    max-width: 75rem;
     margin: 0 auto;
     font-size: 1.3rem;
+    padding: 0 10px;
 }
 
 /* Home After Banner CSS End*/
@@ -489,7 +489,7 @@ span.theme {
     background-repeat: no-repeat;
     background-color: rgba(0 0 0/80%);
     background-blend-mode: multiply;
-    padding:0 20px ;
+    padding:0 1.25rem;
 }
 
 button.slick-prev.slick-arrow,
@@ -525,12 +525,12 @@ button.slick-next.slick-arrow {
 .books_content h2 {
     color: #A88BEB;
     font-size: 3rem;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 .books_content p {
     font-size: 1.5rem;
-    max-width: 900px;
+    max-width: 56.25rem;
     margin: 0 auto;
     color: #fff;
 }
@@ -549,7 +549,7 @@ button.slick-next.slick-arrow {
     text-align: center;
     padding: 0 .9375rem;
     backdrop-filter: blur(5px);
-    padding: 40px 20px;
+    padding: 2.5rem  1.25rem;
     box-shadow: #A88BEB 0px 2px 8px 0px;
     border-radius: 20px;
 }
@@ -567,9 +567,9 @@ button.slick-next.slick-arrow {
 
 .why_us_card {
     padding: 2.5rem 1.5625rem;
-    border-radius: 10px;
+    border-radius: 0.625rem;
     background: white;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     text-align: center;
     height: 100%;
@@ -577,13 +577,13 @@ button.slick-next.slick-arrow {
 
 .why_us_card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
 }
 
 .why_us_icon {
     width: 3.75rem;
     height: 3.75rem;
-    margin: 0 auto 20px;
+    margin: 0 auto 1.25rem;
 }
 
 .why_us_icon_inner {
@@ -631,7 +631,7 @@ button.slick-next.slick-arrow {
 }
 
 .featured_books_sec .books_slides {
-    height: 600px;
+    height: 37.5rem;
 }
 
 .featured_books_sec .slick-prev:before {
@@ -646,7 +646,7 @@ button.slick-next.slick-arrow {
 
 .featured_books_sec .slick-prev:before,
 .featured_books_sec .slick-next:before {
-    font-size: 35px;
+    font-size: 2.1875rem;
     opacity: 1;
 }
 
@@ -691,7 +691,7 @@ button.slick-next.slick-arrow {
     outline: none;
     border: none;
     border-bottom: 1px solid #fff;
-    padding: 10px;
+    padding: 0.625rem;
     color: #fff;
 }
 
@@ -707,7 +707,7 @@ button.slick-next.slick-arrow {
 .newsletter-wrap p {
     color: #fff;
     font-size: 1.2rem;
-    max-width: 800px;
+    max-width: 50rem;
     margin: 0 auto;
 }
 
@@ -716,15 +716,15 @@ button.slick-next.slick-arrow {
 }
 
 .newsletter-btn {
-    padding: 10px 20px;
+    padding: 0.625rem 1.25rem;
     font-size: 1.2rem;
     color: #fff;
 }
 
 .newsletter-btn .letter-img,
 .msg-img {
-    height: 30px;
-    width: 30px;
+    height: 1.875rem;
+    width: 1.875rem;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -753,7 +753,7 @@ button.slick-next.slick-arrow {
 }
 
 .disclaimer {
-    padding-right: 60px;
+    padding-right: 3.75rem;
 }
 
 .disclaimer p {
@@ -795,8 +795,8 @@ button.slick-next.slick-arrow {
     align-items: center;
     justify-content: center;
     background-color: #A88BEB;
-    border-radius: 5px;
-    padding: 8px;
+    border-radius: 0.3125rem;
+    padding: 0.5rem;
     transition: 0.2s all ease-in-out;
 }
 
@@ -936,7 +936,7 @@ button.slick-next.slick-arrow {
 }
 
 .book-image {
-    height: 350px;
+    height: 21.875rem;
     width: 100%;
     overflow: hidden;
 }
@@ -950,19 +950,19 @@ button.slick-next.slick-arrow {
 }
 
 .book-content {
-    padding: 15px;
+    padding: 0.9375rem;
 }
 
 .book-title {
-    margin: 0 0 10px 0;
+    margin: 0 0 0.625rem 0;
     color: #333;
     font-size: 1.7rem;
 }
 
 .book-author {
-    margin: 0 0 15px 0;
+    margin: 0 0 0.9375rem 0;
     color: #666;
-    font-size: 14px;
+    font-size: 1rem;
     font-weight: 600;
 }
 
@@ -976,7 +976,7 @@ button.slick-next.slick-arrow {
 }
 
 .book-description {
-    margin: 0 0 15px 0;
+    margin: 0 0 0.9375rem 0;
     color: #4c4c4c;
     font-size: 1rem;
     line-height: 1.5;
@@ -989,7 +989,7 @@ button.slick-next.slick-arrow {
 
 
 .about_banner .books-image-inner {
-    border: 15px solid #A88BEB;
+    border: 0.9375rem solid #A88BEB;
 }
 .about_cards {
     border: 1px solid transparent;
@@ -1019,13 +1019,13 @@ button.slick-next.slick-arrow {
 .about_cards_info {
     background: #fff;
     padding: 3rem 1.25rem;
-    border-radius: 20px;
+    border-radius: 1.25rem;
 }
 
 .about_last_cards {
     background-color: #A88BEB;
     padding: 4rem 2rem;
-    border-radius: 20px;
+    border-radius: 1.25rem;
     transition: 0.2s all ease-in-out;
     height: 100%;
 }
@@ -1039,14 +1039,14 @@ button.slick-next.slick-arrow {
 
 /* Contact Page CSS Start */
 .contact_cards_wrap {
-    max-width: 1200px;
+    max-width: 75rem;
     margin: 0 auto;
 }
 
 .contact_cards {
     background: #e3e3e3;
     padding: 3rem 2rem;
-    border-radius: 20px;
+    border-radius: 1.25rem;
     height: 100%;
 }
 
@@ -1066,7 +1066,7 @@ color: #A88BEB;
 }
 .contact_cards_content ul li {
     list-style: disc;
-    margin-left: 20px;
+    margin-left: 1.25rem;
 }
 .home_after_banner_text_rap ul li p a{
     color: #A88BEB;
@@ -1077,7 +1077,7 @@ color: #A88BEB;
 .footer-pages-wrap {
     max-width: 81.25rem;
     margin: 0 auto;
-    border-radius: 20px;
+    border-radius: 1.25rem;
     position: relative;
 }
 

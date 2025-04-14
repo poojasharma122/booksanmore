@@ -137,6 +137,12 @@
     .books-image {
         height: 23.25rem;
     }
+    .books_content p {
+        font-size: 1.3rem;
+    }
+    .books_slides {
+        height: 30.625rem;
+    }
 }
 
 @media screen and (max-width:575px){
@@ -146,11 +152,35 @@
     .books-image {
         height: 20.25rem;
     }
+    .home_after_banner_text_rap p {
+        font-size: 1.1rem;
+    }
+    .section_heading {
+        font-size: 2rem;
+    }
+    .books_content h2 {
+        font-size: 2.5rem;
+    }
+    .books_content p {
+        font-size: 1.2rem;
+    }
 }
 
 @media screen and (max-width:480px){
     .nav__logo, .footer_logo a {
         width: 11.75rem;
-    }   
+    } 
+    .section_heading {
+        font-size: 1.8rem;
+    }  
+    .home_after_banner_text_rap p {
+        font-size: 1rem;
+    }
+    .books_content h2 {
+        font-size: 2rem;
+    }
+    .books_content p {
+        font-size: 1.1rem;
+    }
 
 }
