@@ -152,6 +152,15 @@
     .books_slides {
         height: 30.625rem;
     }
+    .sub_pages_banner {
+        height: 25rem;
+    }
+    .banner_box h1 {
+        font-size: 2.5rem;
+    }
+    .banner_box h3 {
+        font-size: 1.4rem;
+    }
 
 }
 
@@ -207,5 +216,14 @@
     }
     .featured_books_sec .books_slides {
         height: 26.5rem;
+    }
+    .sub_pages_banner {
+        height: 20rem;
+    }
+    .banner_box h1 {
+        font-size: 1.8rem;
+    }
+    .banner_box h3 {
+        font-size: 1.2rem;
     }
 }
