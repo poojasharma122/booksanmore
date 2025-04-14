@@ -489,6 +489,7 @@ span.theme {
     background-repeat: no-repeat;
     background-color: rgba(0 0 0/80%);
     background-blend-mode: multiply;
+    padding:0 20px ;
 }
 
 button.slick-prev.slick-arrow,
@@ -985,6 +986,11 @@ button.slick-next.slick-arrow {
 
 
 /* About Page CSS Start*/
+
+
+.about_banner .books-image-inner {
+    border: 15px solid #A88BEB;
+}
 .about_cards {
     border: 1px solid transparent;
     padding: 1.875rem 2.5rem;
