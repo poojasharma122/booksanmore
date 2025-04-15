@@ -94,9 +94,9 @@
     .featured_books_sec .books_content h2 {
         font-size: 1.7rem;
     }
-    .featured_books_sec .books_slides {
+    /* .featured_books_sec .books_slides {
         height: 26.5rem;
-    }
+    } */
     .books_slides {
         height: 30.625rem;
     }
@@ -234,9 +234,9 @@
     .featured_books_sec .books_content p {
         font-size: 0.95rem;
     }
-    .featured_books_sec .books_slides {
+    /* .featured_books_sec .books_slides {
         height: 26.5rem;
-    }
+    } */
     .sub_pages_banner {
         height: 20rem;
     }

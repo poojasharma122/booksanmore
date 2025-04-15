@@ -619,10 +619,6 @@ button.slick-next.slick-arrow {
 
 
 /* Home Editor Card CSS Start */
-.featured_books_wrap {
-    max-width: 900px;
-    margin: 0 auto;
-}
 .featured_books_sec .single-item-slider {
     width: calc(100% - 150px);
     margin: 0 auto;
@@ -637,8 +633,13 @@ button.slick-next.slick-arrow {
 }
 
 .featured_books_sec .books_slides {
-    height: 37.5rem;
+    height: 45.5rem;
+    background-size: contain;
+    background-color: rgba(0 0 0/30%);
+    align-items: flex-end;
 }
+
+
 
 .featured_books_sec .slick-prev:before {
     content: '<';
@@ -658,14 +659,23 @@ button.slick-next.slick-arrow {
 
 .featured_books_sec .books_content h2 {
     font-size: 2rem;
-    max-width: 600px;
+    /* max-width: 600px; */
     margin: 0 auto 25px auto;
     line-height: 1.3;
+    color: #000;
 }
+.books_slides_btn .butn {
+    color: #ffff;
+    border: 1px solid #fff;
+    transition: 0.3s all ease-in-out;
+}
+.books_slides_btn .butn:hover {
 
+    border: 1px solid #A88BEB;
+}
 .featured_books_sec .books_content p {
     font-size: 1.1rem;
-    max-width: 600px;
+    /* max-width: 600px; */
     margin: 0 auto;
     line-height: 1.5;
 }
@@ -676,6 +686,16 @@ button.slick-next.slick-arrow {
 
 .featured_books_sec .slick-next {
     right: -45px !important;
+}
+.featured_books_sec .books_content {
+    max-width: 100% !important;
+    background-color: #a88beb9c;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.featured_books_sec .books_content p {
+    max-width: 100%;
+width: 100%;
 }
 
 /* Home Editor Card CSS End*/
@@ -1148,3 +1168,6 @@ color: #A88BEB;
     font-weight: 600;
 }
 /* Footer Pages CSS End*/
+
+
+
