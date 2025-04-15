@@ -503,12 +503,12 @@ button.slick-next.slick-arrow {
 }
 
 .slick-prev:before {
-    content: '<';
+    content: '←';
     color: #fff;
 }
 
 .slick-next:before {
-    content: '>';
+    content: '→';
     color: #fff;
 }
 
@@ -643,12 +643,12 @@ button.slick-next.slick-arrow {
 
 
 .featured_books_sec .slick-prev:before {
-    content: '<';
+    content: '←';
     color: #A88BEB;
 }
 
 .featured_books_sec .slick-next:before {
-    content: '>';
+    content: '→';
     color: #A88BEB;
 }
 
