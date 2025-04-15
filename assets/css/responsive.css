@@ -149,7 +149,7 @@
     .featured_books_sec .slick-prev,
     .featured_books_sec .slick-next {
         top: auto;
-        bottom: -60px;
+        bottom: -50px;
         transform: none;
     }
 
