@@ -487,7 +487,7 @@ span.theme {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: rgba(0 0 0/80%);
+    background-color: rgba(0 0 0/60%);
     background-blend-mode: multiply;
     padding:0 1.25rem;
 }
@@ -530,9 +530,10 @@ button.slick-next.slick-arrow {
 
 .books_content p {
     font-size: 1.5rem;
-    max-width: 56.25rem;
+    max-width: 46.25rem;
     margin: 0 auto;
     color: #fff;
+    font-weight: 300;
 }
 
 .slick-prev {
@@ -547,11 +548,12 @@ button.slick-next.slick-arrow {
 
 .books_content {
     text-align: center;
-    padding: 0 .9375rem;
     backdrop-filter: blur(5px);
     padding: 2.5rem  1.25rem;
     box-shadow: #A88BEB 0px 2px 8px 0px;
     border-radius: 20px;
+    max-width: 56.25rem;
+    margin: 0 auto;
 }
 
 /* Home Slider CSS End */
@@ -617,6 +619,10 @@ button.slick-next.slick-arrow {
 
 
 /* Home Editor Card CSS Start */
+.featured_books_wrap {
+    max-width: 900px;
+    margin: 0 auto;
+}
 .featured_books_sec .single-item-slider {
     width: calc(100% - 150px);
     margin: 0 auto;
