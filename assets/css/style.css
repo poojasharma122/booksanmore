@@ -209,7 +209,7 @@ span.theme {
 
 /* Butn CSS Start */
 .butn {
-    padding: 0.625rem 0.5625rem;
+    padding: 0.625rem 1.5625rem;
     font-weight: 500;
     background: transparent;
     outline: none !important;
