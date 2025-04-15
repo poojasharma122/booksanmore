@@ -414,7 +414,8 @@ span.theme {
     font-weight: 700;
     color: #2c3e50;
     margin-bottom: 1.25rem;
-    line-height: 1.2;
+    line-height: 1.3;
+    max-width: 500px;
 }
 
 .books-content p {
@@ -603,8 +604,8 @@ button.slick-next.slick-arrow {
     font-size: 1.5rem;
     color: #A88BEB;
     font-weight: 500;
+    line-height: 1.3;
 }
-
 .why_us_card p {
     color: #666;
     line-height: 1.5;
