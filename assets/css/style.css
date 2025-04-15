@@ -620,7 +620,7 @@ button.slick-next.slick-arrow {
 
 
 /* Home Editor Card CSS Start */
-.featured_books_sec .single-item-slider {
+.featured_books_sec .books_item_slider {
     width: calc(100% - 150px);
     margin: 0 auto;
 }
