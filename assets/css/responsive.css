@@ -131,6 +131,9 @@
     .books-image {
         height: 27.25rem;
     }
+    .featured_books_sec .books_item_slider {
+        width: calc(100% - 100px);
+    }
 }
 
 @media (max-width: 767px) {
@@ -201,6 +204,9 @@
 
     .banner_box h3 {
         font-size: 1.4rem;
+    }
+    .featured_books_sec .books_item_slider {
+        width: 100%;
     }
 
 }
